@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/voicenote-manager/static/css/main.073c9b0a.css",
+    "main.js": "/voicenote-manager/static/js/main.5b54e2bc.js",
+    "static/js/787.ae7c91a9.chunk.js": "/voicenote-manager/static/js/787.ae7c91a9.chunk.js",
+    "service-worker.js": "/voicenote-manager/service-worker.js",
+    "static/media/logo.svg": "/voicenote-manager/static/media/logo.103b5fa18196d5665a7e12318285c916.svg",
+    "index.html": "/voicenote-manager/index.html",
+    "main.073c9b0a.css.map": "/voicenote-manager/static/css/main.073c9b0a.css.map",
+    "main.5b54e2bc.js.map": "/voicenote-manager/static/js/main.5b54e2bc.js.map",
+    "787.ae7c91a9.chunk.js.map": "/voicenote-manager/static/js/787.ae7c91a9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.5b54e2bc.js"
+  ]
+}
