@@ -33,7 +33,10 @@
           "accept": [
             "audio/ogg",
             "audio/opus",
-            ".opus"
+            "audio/*",
+            "*/*",
+            ".opus",
+            ".ogg"
           ]
         }
       ]
