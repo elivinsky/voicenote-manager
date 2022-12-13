@@ -70,3 +70,18 @@ self.addEventListener('message', (event) => {
 });
 
 // Any other custom service worker logic can go here.
+self.addEventListener('fetch', (event) => {
+    const url = new URL(event.request.url);
+    if (event.request.method === 'POST' && url.pathname === '/receive') {
+        event.respondWith(Response.redirect('/'));
+
+        event.waitUntil(async function () {
+            const client = await self.clients.get(event.resultingClientId);
+            const data = await event.request.formData();
+            const files = data.get('audio');
+            client.postMessage({ files });
+        }());
+
+        return;
+    }
+});
